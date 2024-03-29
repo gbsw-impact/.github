@@ -18,38 +18,10 @@
 데스크탑과 모바일 두 환경에서 사용 할 수 있게 하는것을 목표로 둡니다.
 
 ### Member
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/KwonGaryeong">
-        <img src="https://avatars.githubusercontent.com/KwonGaryeong" width="100px" height="100px" />
-        <br />
-        권가령
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Suhwan623">
-        <img src="https://avatars.githubusercontent.com/Suhwan623" width="100px" height="100px" />
-        <br />
-        이수환
-      </a>
-    </td>
-     <td align="center">
-      <a href="https://github.com/L4VEN">
-        <img src="https://avatars.githubusercontent.com/L4VEN" width="100px" height="100px" />
-        <br />
-        강 한
-      </a>
-     </td>
-      <td align="center">
-      <a href="https://github.com/806gw">
-        <img src="https://avatars.githubusercontent.com/806gw" width="100px" height="100px" />
-        <br />
-        성홍제
-      </a>
-      </td>
-  </tr>
-</table>
+* 성홍제 - (팀장), 프론트 및 총괄 
+* 강한 - 디자인, 프론트
+* 권가령 - 디자인, 백엔드 보조 
+* 이수환 - 백엔드(api) 
 
 ## Skills
 <a href=""><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/></a>
