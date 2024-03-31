@@ -17,13 +17,13 @@
 ### 개발 목표
 데스크탑과 모바일 두 환경에서 사용 할 수 있게 하는것을 목표로 둡니다.
 
-### Member
+## Member
 * 성홍제 - (팀장), 프론트 및 총괄 
 * 강한 - 디자인, 프론트
 * 권가령 - 디자인, 백엔드 보조 
 * 이수환 - 백엔드(api)
 
-### To be used
+## To be used
 
 | 분야 | 메이커 |  | 사용목적 |
 | ------------- | ---------------------- | -------------------------- | ---------------- |
@@ -40,4 +40,8 @@
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"/></a>
 <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=NestJS&logoColor=white"/></a>
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySql-4479A1?style=for-the-badge&logo=MySql&logoColor=white"/></a>
+
+## 프로젝트 진행
+* 프로젝트 구상과 팀원 역할 분배(2024년 3월 중반)
+* 프론트 UI/UX 구현 및 백엔드 개발 (3월 말 ~ 4월 초반)
      
