@@ -28,7 +28,7 @@
 | 분야 | 메이커 |  | 사용목적 |
 | ------------- | ---------------------- | -------------------------- | ---------------- |
 | Design  | 권가령, 강한 | <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>| 데스크톱의 디자인을 담당합니다. |
-| Desktop App | 강한, 성홍제 |<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>  | 데스크톱의 프론트를 담당합니다. |
+| Desktop App | 강한, 성홍제 |<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=Vite&logoColor=white"/>  | 데스크톱의 프론트를 담당합니다. |
 | API | 이수환 |  <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=NestJS&logoColor=white"/></a>| 프로젝트에 필요한 서비스를 구현합니다. |
 | DBA | 이수환  | <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySql-4479A1?style=flat-square&logo=MySql&logoColor=white"/></a> | 정보를 저장하기 위해 사용합니다. |
 | Communication | All | <a href="https://discord.com/"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=Discord&logoColor=white"/></a> | 보다 익숙한 환경에서의 효율적인 협업을 위해 사용합니다. |
