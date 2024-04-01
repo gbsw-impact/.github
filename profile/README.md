@@ -2,7 +2,7 @@
   
   ## 랩실 대여 및 프로젝트 팀원 구하기 시스템 [GBSW - IMPACT]
   <!-- 세계에 영향을 미치는 팀, 임팩트입니다. -->
-  <img width="553" src="https://github.com/gbsw-impact/.github/assets/133763382/c7462ec7-d619-4e7b-be36-72719abdd547">
+  <img width="750" src="https://github.com/gbsw-impact/.github/assets/109652025/9ae1dc7d-e27d-4ca2-9e38-3aef6baa337d">
 
   
 </div>
