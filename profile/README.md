@@ -3,9 +3,13 @@
   ## 랩실 대여 및 프로젝트 팀원 구하기 시스템 [GBSW - IMPACT]
   <!-- 세계에 영향을 미치는 팀, 임팩트입니다. -->
   <img width="750" src="https://github.com/gbsw-impact/.github/assets/109652025/9ae1dc7d-e27d-4ca2-9e38-3aef6baa337d">
-
-  
 </div>
+
+## 데스크탑
+![랜딩_페이지](https://github.com/gbsw-impact/.github/assets/133763382/ab356a02-f8a9-4d7d-8b9e-9a5ad649b69d)
+![인력모집_검색중](https://github.com/gbsw-impact/.github/assets/133763382/61408860-cf85-4865-a35e-e55e70aa2323)
+![인력모집_글쓰기](https://github.com/gbsw-impact/.github/assets/133763382/e7330cd1-a546-4810-9ece-a0bfc79b933d)
+![실습실_메인](https://github.com/gbsw-impact/.github/assets/133763382/b6692c78-360f-40cb-9627-a00e94c10b1b)
 
 # PLAB 플랩
 > 기존의 랩실 대여 시스템을 편하게 이용할 수 있도록 하는것을 목표로 두고 있습니다. </br>
