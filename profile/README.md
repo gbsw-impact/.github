@@ -53,3 +53,110 @@
 * 웹퍼블리싱 (4월 첫째주 ~ 4월 셋째주)
 * 프론트엔드 작업 (4월 셋째주 ~ 6월 후반)
 * 발표준비 및 버그수정 (5월 다섯째주~)
+
+## Tree architecture
+```
+Backend
+📦src
+ ┣ 📂admin
+ ┃ ┣ 📜admin.controller.ts
+ ┃ ┣ 📜admin.module.ts
+ ┃ ┣ 📜admin.service.ts
+ ┃ ┗ 📜admin.ts
+ ┣ 📂article
+ ┃ ┣ 📜article.controller.ts
+ ┃ ┣ 📜article.module.ts
+ ┃ ┗ 📜article.service.ts
+ ┣ 📂auth
+ ┃ ┣ 📜auth.controller.ts
+ ┃ ┣ 📜auth.module.ts
+ ┃ ┣ 📜auth.service.ts
+ ┃ ┗ 📜role.type.ts
+ ┣ 📂boards
+ ┃ ┣ 📜boards.controller.spec.ts
+ ┃ ┣ 📜boards.service.spec.ts
+ ┃ ┣ 📜User.Controller.ts
+ ┃ ┣ 📜User.module.ts
+ ┃ ┗ 📜User.Service.ts
+ ┣ 📂decorators
+ ┃ ┣ 📜role.decorator.ts
+ ┃ ┗ 📜user.decorator.ts
+ ┣ 📂dtos
+ ┃ ┣ 📂article
+ ┃ ┃ ┣ 📜create-article.dto.ts
+ ┃ ┃ ┣ 📜modify-article.dto.ts
+ ┃ ┃ ┗ 📜sign-in.dto.ts
+ ┃ ┣ 📜lab.dto.ts
+ ┃ ┣ 📜LoginDto.ts
+ ┃ ┗ 📜user.dto.ts
+ ┣ 📂entities
+ ┃ ┣ 📜article.entity.ts
+ ┃ ┣ 📜common.entity.ts
+ ┃ ┣ 📜lab-info.entity.ts
+ ┃ ┣ 📜lab.entity.ts
+ ┃ ┣ 📜user-authority.entity.ts
+ ┃ ┗ 📜user.entity.ts
+ ┣ 📂filter
+ ┃ ┗ 📜http-exception.filter.ts
+ ┣ 📂guards
+ ┃ ┣ 📜jwt-auth.guard.ts
+ ┃ ┣ 📜local-auth.guard.ts
+ ┃ ┗ 📜role.guard.ts
+ ┣ 📂lab
+ ┃ ┣ 📜lab.controller.ts
+ ┃ ┣ 📜lab.module.ts
+ ┃ ┗ 📜lab.service.ts
+ ┣ 📂strategies
+ ┃ ┣ 📜jwt.strategy.ts
+ ┃ ┗ 📜local.strategy.ts
+ ┣ 📂test
+ ┃ ┗ 📜app.e2e-spec.ts
+ ┣ 📂twilio
+ ┃ ┣ 📜twilio-config.service.ts
+ ┃ ┣ 📜twilio.module.ts
+ ┃ ┗ 📜twilio.service.ts
+ ┣ 📜app.module.ts
+ ┣ 📜data-source.ts
+ ┗ 📜main.ts
+
+Frontend
+📦src
+ ┣ 📂assets
+ ┃ ┣ 📂font
+ ┃ ┃ ┣ 📜Pretendard-Bold.otf
+ ┃ ┃ ┣ 📜Pretendard-ExtraBold.otf
+ ┃ ┃ ┣ 📜Pretendard-Light.otf
+ ┃ ┃ ┣ 📜Pretendard-Medium.otf
+ ┃ ┃ ┣ 📜Pretendard-SemiBold.otf
+ ┃ ┃ ┗ 📜달라왕 Bold.ttf
+ ┃ ┣ 📜arrow.svg
+ ┃ ┣ 📜eye.svg
+ ┃ ┣ 📜GBSW.webp
+ ┃ ┣ 📜landing.png
+ ┃ ┣ 📜pj-hello.png
+ ┃ ┣ 📜pj-think.png
+ ┃ ┣ 📜react.svg
+ ┃ ┗ 📜trash.svg
+ ┣ 📂components
+ ┃ ┣ 📜Footer.tsx
+ ┃ ┣ 📜Header.tsx
+ ┃ ┗ 📜Post.tsx
+ ┣ 📂data
+ ┃ ┗ 📜postData.ts
+ ┣ 📂pages
+ ┃ ┣ 📂lab
+ ┃ ┃ ┣ 📜LabEnroll.tsx
+ ┃ ┃ ┣ 📜LabRent.tsx
+ ┃ ┃ ┗ 📜TeacherScreen.tsx
+ ┃ ┣ 📂project
+ ┃ ┃ ┣ 📜PjMain.tsx
+ ┃ ┃ ┣ 📜PjMore.tsx
+ ┃ ┃ ┗ 📜PostDetail.tsx
+ ┃ ┣ 📜Landing.tsx
+ ┃ ┗ 📜Login.tsx
+ ┣ 📂styles
+ ┃ ┗ 📜global.ts
+ ┣ 📜App.tsx
+ ┣ 📜main.tsx
+ ┗ 📜vite-env.d.ts
+```
