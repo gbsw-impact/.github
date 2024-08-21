@@ -5,7 +5,6 @@
 </div>
 
 # 페이지구성 
-[페이지 바로가기](http://plab.s3-website.ap-northeast-2.amazonaws.com/)
 ## 데스크탑
 ![랜딩_페이지](https://github.com/gbsw-impact/.github/assets/133763382/ab356a02-f8a9-4d7d-8b9e-9a5ad649b69d)
 ![인력모집_검색중](https://github.com/gbsw-impact/.github/assets/133763382/61408860-cf85-4865-a35e-e55e70aa2323)
