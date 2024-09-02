@@ -9,6 +9,7 @@
 ![랜딩_페이지](https://github.com/gbsw-impact/.github/assets/133763382/ab356a02-f8a9-4d7d-8b9e-9a5ad649b69d)
 ![인력모집_검색중](https://github.com/gbsw-impact/.github/assets/133763382/61408860-cf85-4865-a35e-e55e70aa2323)
 ![인력모집_글쓰기](https://github.com/gbsw-impact/.github/assets/133763382/e7330cd1-a546-4810-9ece-a0bfc79b933d)
+![실습실대여_대여화면](https://github.com/user-attachments/assets/4388e105-8106-43db-9b36-d836f444803c)
 ![실습실_메인](https://github.com/gbsw-impact/.github/assets/133763382/b6692c78-360f-40cb-9627-a00e94c10b1b)
 
 # PLAB 플랩
