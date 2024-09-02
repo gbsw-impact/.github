@@ -7,10 +7,12 @@
 # 페이지구성 
 ## 데스크탑
 ![랜딩_페이지](https://github.com/gbsw-impact/.github/assets/133763382/ab356a02-f8a9-4d7d-8b9e-9a5ad649b69d)
+![로그인](https://github.com/user-attachments/assets/a0aafb69-81f7-4cb3-a9cb-9e477806fd1e)
 ![인력모집_검색중](https://github.com/gbsw-impact/.github/assets/133763382/61408860-cf85-4865-a35e-e55e70aa2323)
 ![인력모집_글쓰기](https://github.com/gbsw-impact/.github/assets/133763382/e7330cd1-a546-4810-9ece-a0bfc79b933d)
 ![실습실대여_대여화면](https://github.com/user-attachments/assets/4388e105-8106-43db-9b36-d836f444803c)
 ![실습실_메인](https://github.com/gbsw-impact/.github/assets/133763382/b6692c78-360f-40cb-9627-a00e94c10b1b)
+![실습실대여_선생님화면](https://github.com/user-attachments/assets/425cb621-f26d-4761-bd58-c72ec7a0eb39)
 
 # PLAB 플랩
 > 기존의 랩실 대여 시스템을 편하게 이용할 수 있도록 하는것을 목표로 두고 있습니다. </br>
@@ -56,110 +58,3 @@
 * 프론트엔드 작업 (4월 셋째주 ~ 6월 후반)
 * aws S3을 이용하여 웹배포 (7월 초반)
 * 발표준비 및 버그수정 (5월 다섯째주~)
-
-## Tree architecture
-```
-Backend
-📦src
- ┣ 📂admin
- ┃ ┣ 📜admin.controller.ts
- ┃ ┣ 📜admin.module.ts
- ┃ ┣ 📜admin.service.ts
- ┃ ┗ 📜admin.ts
- ┣ 📂article
- ┃ ┣ 📜article.controller.ts
- ┃ ┣ 📜article.module.ts
- ┃ ┗ 📜article.service.ts
- ┣ 📂auth
- ┃ ┣ 📜auth.controller.ts
- ┃ ┣ 📜auth.module.ts
- ┃ ┣ 📜auth.service.ts
- ┃ ┗ 📜role.type.ts
- ┣ 📂boards
- ┃ ┣ 📜boards.controller.spec.ts
- ┃ ┣ 📜boards.service.spec.ts
- ┃ ┣ 📜User.Controller.ts
- ┃ ┣ 📜User.module.ts
- ┃ ┗ 📜User.Service.ts
- ┣ 📂decorators
- ┃ ┣ 📜role.decorator.ts
- ┃ ┗ 📜user.decorator.ts
- ┣ 📂dtos
- ┃ ┣ 📂article
- ┃ ┃ ┣ 📜create-article.dto.ts
- ┃ ┃ ┣ 📜modify-article.dto.ts
- ┃ ┃ ┗ 📜sign-in.dto.ts
- ┃ ┣ 📜lab.dto.ts
- ┃ ┣ 📜LoginDto.ts
- ┃ ┗ 📜user.dto.ts
- ┣ 📂entities
- ┃ ┣ 📜article.entity.ts
- ┃ ┣ 📜common.entity.ts
- ┃ ┣ 📜lab-info.entity.ts
- ┃ ┣ 📜lab.entity.ts
- ┃ ┣ 📜user-authority.entity.ts
- ┃ ┗ 📜user.entity.ts
- ┣ 📂filter
- ┃ ┗ 📜http-exception.filter.ts
- ┣ 📂guards
- ┃ ┣ 📜jwt-auth.guard.ts
- ┃ ┣ 📜local-auth.guard.ts
- ┃ ┗ 📜role.guard.ts
- ┣ 📂lab
- ┃ ┣ 📜lab.controller.ts
- ┃ ┣ 📜lab.module.ts
- ┃ ┗ 📜lab.service.ts
- ┣ 📂strategies
- ┃ ┣ 📜jwt.strategy.ts
- ┃ ┗ 📜local.strategy.ts
- ┣ 📂test
- ┃ ┗ 📜app.e2e-spec.ts
- ┣ 📂twilio
- ┃ ┣ 📜twilio-config.service.ts
- ┃ ┣ 📜twilio.module.ts
- ┃ ┗ 📜twilio.service.ts
- ┣ 📜app.module.ts
- ┣ 📜data-source.ts
- ┗ 📜main.ts
-
-Frontend
-📦src
- ┣ 📂assets
- ┃ ┣ 📂font
- ┃ ┃ ┣ 📜Pretendard-Bold.otf
- ┃ ┃ ┣ 📜Pretendard-ExtraBold.otf
- ┃ ┃ ┣ 📜Pretendard-Light.otf
- ┃ ┃ ┣ 📜Pretendard-Medium.otf
- ┃ ┃ ┣ 📜Pretendard-SemiBold.otf
- ┃ ┃ ┗ 📜달라왕 Bold.ttf
- ┃ ┣ 📜arrow.svg
- ┃ ┣ 📜eye.svg
- ┃ ┣ 📜GBSW.webp
- ┃ ┣ 📜landing.png
- ┃ ┣ 📜pj-hello.png
- ┃ ┣ 📜pj-think.png
- ┃ ┣ 📜react.svg
- ┃ ┗ 📜trash.svg
- ┣ 📂components
- ┃ ┣ 📜Footer.tsx
- ┃ ┣ 📜Header.tsx
- ┃ ┗ 📜Post.tsx
- ┣ 📂data
- ┃ ┗ 📜postData.ts
- ┣ 📂pages
- ┃ ┣ 📂lab
- ┃ ┃ ┣ 📜LabEnroll.tsx
- ┃ ┃ ┣ 📜LabRent.tsx
- ┃ ┃ ┗ 📜TeacherScreen.tsx
- ┃ ┣ 📂project
- ┃ ┃ ┣ 📜PjMain.tsx
- ┃ ┃ ┣ 📜PjMore.tsx
- ┃ ┃ ┗ 📜PostDetail.tsx
- ┃ ┣ 📜Landing.tsx
- ┃ ┗ 📜Login.tsx
- ┣ 📂styles
- ┃ ┗ 📜global.ts
- ┣ 📜App.tsx
- ┣ 📜main.tsx
- ┗ 📜vite-env.d.ts
-```
